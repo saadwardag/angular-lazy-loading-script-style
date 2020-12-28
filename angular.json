@@ -28,12 +28,14 @@
               {
                 "input": "src/lazy-first.scss",
                 "bundleName": "lazy-first",
-                "inject": false
+                "inject": false,
+                "lazy": true
               },
               {
                 "input": "src/lazy-second.scss",
                 "bundleName": "lazy-second",
-                "inject": false
+                "inject": false,
+                "lazy": true
               }
             ],
             "scripts": []
